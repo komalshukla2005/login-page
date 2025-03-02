@@ -9,7 +9,7 @@ function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch("http://localhost:3002/api/auth/dashboard", {
+        const res = await fetch("https://login-backend-mu.vercel.app/api/auth/dashboard", {
           method: "GET",
           credentials: "include",
         });
@@ -36,7 +36,7 @@ function Home() {
 
   const handleLogout = async () => {
     try {
-      const res = await fetch("http://localhost:3002/api/auth/logout", {
+      const res = await fetch("https://login-backend-mu.vercel.app/api/auth/logout", {
         method: "POST",
         credentials: "include",
       });

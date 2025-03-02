@@ -1,15 +1,10 @@
-@import url("https://fonts.googleapis.com/cs@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');s2?family=Poppins:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Noto+Serif:wght@100..900&display=swap");
+
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight:400;
-  font-style: normal;
-  font-variation-settings:
-    "width" 100;
 }
 
 /* 🔥 Sleek Dark Background */
@@ -36,7 +31,7 @@ body {
 
 /* ✨ Headings */
 h2 {
-  font-size:1.5rem;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 20px;
   color: #ffffff;
@@ -53,7 +48,7 @@ form {
 /* 🔷 Input Fields */
 input {
   width: 100%;
-  padding:7px;
+  padding: 7px;
   margin: 10px 0;
   border: none;
   border-radius: 8px;
@@ -76,7 +71,7 @@ input:focus {
 
 /* 🔥 Stylish Button (Neon Glow Effect) */
 button[type="submit"] {
-  padding:7px;
+  padding: 7px;
   width: 100%;
   margin-top: 15px;
   background: linear-gradient(45deg, #ff004f, #0072ff);
@@ -114,16 +109,6 @@ button.signup-link:hover {
   color: #ffffff;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* 📌 Home Page Container */
 .home-container {
   background: rgba(255, 255, 255, 0.1);
@@ -147,8 +132,8 @@ h1 {
 
 /* 🔴 Stylish Logout Button */
 .logout-button {
-  padding:10px;
-  width:7rem;
+  padding: 10px;
+  width: 7rem;
   margin-top: 20px;
   background: linear-gradient(45deg, #ff512f, #ff9a44);
   color: white;
