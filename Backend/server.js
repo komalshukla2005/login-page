@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 app.use(cookieParser());
-app.use(cors({ origin: "https://login-frontend-komalshukla2005-komalshukla2005s-projects.vercel.app", credentials: true }));
+app.use(cors({ origin: "https://login-frontend-9g2y6pr49-komalshukla2005s-projects.vercel.app/", credentials: true }));
 
 connectDB();
 
